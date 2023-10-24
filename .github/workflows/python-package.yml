@@ -25,7 +25,6 @@ jobs:
     - name: Install python package
       run: |
         pip install --upgrade pip
-        pip install json
         pip install requests             
 
     - name: Run Script      
