@@ -1,6 +1,5 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
 name: Han API
 
 on:
@@ -30,4 +29,4 @@ jobs:
 
     - name: Run Script      
       run: |
-        python main.py ${{secrets.api_key}} ${{secrets.secret_key}} ${{secrets.cano}} ${{secrets.acnt_prdt_cd}}
+        python main.py ${{secrets.API_KEY}} ${{secrets.SECRET_KEY}} ${{secrets.CANO}} ${{secrets.ACNT_PRDT_CD}}
